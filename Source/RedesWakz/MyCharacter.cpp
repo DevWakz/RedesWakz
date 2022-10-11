@@ -32,3 +32,19 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 }
 
+void AMyCharacter::DummyFunction()
+{
+	if (GEngine)
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Acabas de saltar!"));
+}
+
+void AMyCharacter::Walk()
+{
+}
+
+void AMyCharacter::DummyCode()
+{
+}
+
+
+
